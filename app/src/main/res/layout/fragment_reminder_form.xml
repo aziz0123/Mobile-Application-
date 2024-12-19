@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#4361ee"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="152dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtReminderDescription"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/black_900_3f"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="start"
+        android:lineSpacingExtra="2dp"
+        android:padding="16dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="Configurer un rappel"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/medNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+        android:hint="Nom du médicament"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/reminderTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+        android:hint="Heure du rappel (HH:mm)"
+        android:padding="16dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <Button
+        android:id="@+id/saveReminderButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        android:text="Enregistrer"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/viewReminderListButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:text="Voir la liste des rappels"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

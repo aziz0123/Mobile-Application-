@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#4361ee">
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="152dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo" />
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/txtEditReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Modifier le rappel"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!-- Medication Name EditText -->
+    <EditText
+        android:id="@+id/editTextReminderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+        android:hint="Nom du médicament"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Reminder Time EditText -->
+    <EditText
+        android:id="@+id/editTextReminderTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+        android:hint="Heure du rappel (HH:mm)"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Save Changes Button -->
+    <Button
+        android:id="@+id/button_save_reminder"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        android:text="Enregistrer les modifications"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

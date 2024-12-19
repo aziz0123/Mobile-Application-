@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <!-- Alarm Message TextView -->
+    <TextView
+        android:id="@+id/alarmMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le rappel est activé!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/medicationNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Médicament: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/reminderTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heure: "
+        android:textSize="22sp"
+        android:paddingBottom="32dp"/>
+
+    <Button
+        android:id="@+id/stopAlarmButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Arrêter l'alarme"
+        android:textSize="18sp"
+        android:backgroundTint="#FF5252"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

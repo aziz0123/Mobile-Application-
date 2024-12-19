@@ -1,0 +1,5 @@
+<!-- Exemple de fichier rectangle_bg_white_a701_radius_18_885.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- Couleur de fond -->
+    <corners android:radius="18dp"/> <!-- Rayon des coins -->
+</shape>

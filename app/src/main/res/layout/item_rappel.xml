@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#4361ee"
+    android:layout_marginBottom="12dp"
+    android:elevation="6dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:backgroundTint="#4361ee"
+    android:clipToOutline="true">
+<TextView
+android:id="@+id/nomMedicamentTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Nom du Médicament"
+android:textSize="18sp"
+android:textColor="@android:color/white"
+android:fontFamily="sans-serif-medium"
+android:paddingBottom="4dp" />
+
+<TextView
+android:id="@+id/heureRappelTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Heure du Rappel"
+android:textSize="16sp"
+android:textColor="@android:color/white"
+android:fontFamily="sans-serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#4CAF50"/>
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Delete"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#F44336"/>
+    </LinearLayout>
+    </LinearLayout>
+
